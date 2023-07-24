@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+
+.container {
+  min-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  width: calc(100% - 200px);
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 400px);
+  margin: 0 auto;
+}
+
+header nav {
+  display: flex;
+  line-height: 64px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header a {
+  width: 100px;
+  display: block;
+  color: black;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+header a:hover {
+  font-weight: bold;
+}
+
+header img {
+  margin-top: 32px;
+  vertical-align: bottom;
+}
+
+.top img{
+  margin-top: 64px;
+  width: 100%;
+}
+
+.top-1 h1 {
+  margin-top: 64px;
+}
+
+.top-1 p {
+  margin-top: 40px;
+}
+
+address {
+  margin: 32px 0;
+}
+
+section + section {
+  margin-top: 120px;
+}
+
+section {
+  text-align: center;
+  width: calc(100% - 64px);
+}
+
+.about address,p {
+  text-align: left;
+  margin-left: 200px;
+}
+
+.Works h1 {
+  margin-bottom: 64px;
+}
+
+.Works ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.Works li {
+  width: calc((100% - 64px) / 3);
+}
+
+.Works img {
+  width: 100%;
+  height: auto;
+}
+
+.News p {
+  border-bottom: 1px solid black;
+}
+
+section table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+section th {
+  font-weight: normal;
+}
+
+section td {
+  text-align: left;
+  padding-left: 64px;
+}
+
+section tr {
+  border-bottom: 1px solid black;
+}
+
+footer h1 {
+  font-size: 28px;
+}
+
+footer table {
+  margin: 0 auto;
+}
+
+footer label{
+  display: flex;
+}
+
+.name {
+  padding: 0 32px;
+  width: 100px;
+}
+
+.mail {
+  padding: 0 32px;
+}
+
+.message {
+  padding: 0 32px;
+}
+
+@media (max-width:600px) {
+  header {
+    width: 100%;
+    text-align: left;
+  }
+
+  .about address,p{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .Works ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .Works li {
+    width: calc((100% - 64px) / 2);
+  }
+
+  .Works img {
+    width: 100%;
+    height: auto;
+  }
+
+  section td {
+    text-align: left;
+    padding-left: 16px;
+  }
+}
+
+
+
+
+
+
+
+
