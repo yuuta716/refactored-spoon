@@ -119,9 +119,10 @@ section th {
   border-bottom: 1px solid black;
 }
 
-section h1 {
+.contact h1 {
+  display: block;
   font-size: 27px;
-  text-align: center;
+  margin-left: 15px;
 }
 
 .contact table {
