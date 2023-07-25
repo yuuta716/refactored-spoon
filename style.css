@@ -147,6 +147,17 @@ section label{
   padding: 0 32px;
 }
 
+button {
+  width: 160px;
+  height: 40px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  line-height: 40px;
+  cursor: pointer;
+  margin: 8px auto;
+}
+
 @media (max-width:600px) {
   header {
     width: 100%;
