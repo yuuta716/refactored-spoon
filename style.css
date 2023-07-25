@@ -166,7 +166,7 @@ section label{
   }
 
   .Works li {
-    width: calc((100% - 32px) / 2);
+    width: calc(100% - 32px);
   }
 
   .Works img {
